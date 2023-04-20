@@ -1,16 +1,15 @@
 <script setup>
 import { RouterView, RouterLink } from "vue-router";
 import Nav from "./views/Nav.vue";
-import Header from "./views/Header.vue";
 import Footer from "./views/Footer.vue";
 </script>
 
 <template>
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <RouterLink to="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h1 class="m-0">Gardener</h1>
-        </a>
+        </RouterLink>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,14 +22,14 @@ import Footer from "./views/Footer.vue";
                 <div class="nav-item dropdown">
                     <RouterLink to="" href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</RouterLink>
                     <div class="dropdown-menu bg-light m-0">
-                        <RouterLink to="/feature" class="dropdown-item">Features</RouterLink>
+                        <RouterLink to="/features" class="dropdown-item">Features</RouterLink>
                         <RouterLink to="/quote" class="dropdown-item">Free Quote</RouterLink>
                         <RouterLink to="/team" class="dropdown-item">Our Team</RouterLink>
                         <RouterLink to="/testimonial" class="dropdown-item">Testimonial</RouterLink>
-                        <RouterLink to="/404" class="dropdown-item">404 Page</RouterLink>
+                        <RouterLink to="/notfound" class="dropdown-item">404 Page</RouterLink>
                     </div>
                 </div>
-                <RouterLink to="contact.html" class="nav-item nav-link">Contact</RouterLink>
+                <RouterLink to="/contact" class="nav-item nav-link">Contact</RouterLink>
             </div>
             <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>

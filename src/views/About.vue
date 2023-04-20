@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row g-5 align-items-end">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="img/about.jpg">
+                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="@/assets/img/about.jpg">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">25</h1>
@@ -57,7 +57,7 @@
 
 
     <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
+    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="@/assets/img/carousel-1.jpg">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-sm-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -92,7 +92,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="@/assets/img/team-1.jpg" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Doris Jordan</h4>
                             <p class="text-primary">Landscape Designer</p>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded">
-                        <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid" src="@/assets/img/team-2.jpg" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Johnny Ramirez</h4>
                             <p class="text-primary">Garden Designer</p>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded">
-                        <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid" src="@/assets/img/team-3.jpg" alt="">
                         <div class="team-text">
                             <h4 class="mb-0">Diana Wagner</h4>
                             <p class="text-primary">Senior Gardener</p>

@@ -1,23 +1,19 @@
 import { createRouter, createWebHistory} from 'vue-router'
-import Header from '../views/Header.vue'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Contact from '../views/Contact.vue'
-import Posts from '../views/Posts.vue'
+import Features from '../views/Features.vue'
 import Services from '../views/Services.vue'
 import Projects from '../views/Projects.vue'
 import Quote from '../views/Quote.vue'
 import Team from '../views/Team.vue'
+import NotFound from '../views/NotFound.vue'
+import Testimonial from '../views/Testimonial.vue'
 
 
 const routes = [
     {
         path: '/',
-        name: 'header',
-        component: Header 
-    },
-    {
-        path: '/home',
         name: 'home',
         component: Home 
     },
@@ -32,9 +28,9 @@ const routes = [
         component: Contact
     },
     {
-        path: '/posts',
-        name: 'posts',
-        component: Posts
+        path: '/features',
+        name: 'features',
+        component: Features
     },
     {
         path: '/services',
@@ -56,6 +52,21 @@ const routes = [
         path: '/team',
         name: 'team',
         component: Team
+    },
+    {
+        path: '/team',
+        name: 'team',
+        component: Team
+    },
+    {
+        path: '/notfound',
+        name: 'notfound',
+        component: NotFound
+    },
+    {
+        path: '/testimonial',
+        name: 'testimonial',
+        component: Testimonial
     }
 ]
 
